@@ -20,6 +20,14 @@ document.addEventListener("keypress", function () {
     }
 });
 
+
+document.querySelector(".start").addEventListener("click", function () {
+    if (!gameStarted) {
+        startGame();
+    }
+});
+
+
 function startGame() {
     gameStarted = true;
     gameSequence = [];
