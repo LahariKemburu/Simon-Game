@@ -37,6 +37,18 @@ body{
 .userflash{
     background-color: rgb(59, 134, 59);
 }
+
+
+.start{
+    height: 30px;
+    width:80px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    background-color:rgb(69, 41, 193);
+    color:white;
+    border:rgb(69, 41, 193) solid 2px;
+}
+
  @media only screen and (max-width: 480px) {
     .button {
         height: 100px;
