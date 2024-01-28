@@ -28,7 +28,7 @@ document.querySelector(".start").addEventListener("click", function () {
     }
     else{
         updatebutton("Start");
-       
+        location.reload();
     }
     
 });
