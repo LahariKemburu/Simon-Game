@@ -21,11 +21,26 @@ document.addEventListener("keypress", function () {
 });
 
 
-document.querySelector(".start").addEventListener("click", function () {
+ocument.querySelector(".start").addEventListener("click", function () {
     if (!gameStarted) {
         startGame();
+        updatebutton("restart");
     }
+    else{
+        updatebutton("Start");
+        location.reload();  
+    }
+    
 });
+
+function updatebutton(text)
+{
+    const sb=document.querySelector(".start");
+    sb.innerText=text;
+    sb.classList.toggle("restart");
+
+}
+
 
 
 function startGame() {
