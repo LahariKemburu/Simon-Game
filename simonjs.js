@@ -41,8 +41,6 @@ function updatebutton(text)
 
 }
 
-
-
 function startGame() {
     gameStarted = true;
     gameSequence = [];
