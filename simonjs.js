@@ -21,7 +21,7 @@ document.addEventListener("keypress", function () {
 });
 
 
-ocument.querySelector(".start").addEventListener("click", function () {
+document.querySelector(".start").addEventListener("click", function () {
     if (!gameStarted) {
         startGame();
         updatebutton("restart");
